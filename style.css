@@ -1,6 +1,4 @@
 
-
-
 :root{
   --primary-color:#0f1a2c;
   --secondary-color:#f6ac0f;
@@ -331,7 +329,7 @@ body{
 
 
 .room-grid{
-  max-width: 1500px;
+  max-width: 1200px;
   margin-inline: auto;
   margin-top:4rem;
   display: grid;
@@ -398,5 +396,29 @@ body{
   width:calc(100vw / 4);
   background-color: var(--secondary-color);
   z-index: -1;
+}
+
+
+.intro-container{
+  display:grid;
+  gap:4rem 2rem;
+}
+
+
+
+.intro-container .section-subheader{
+  color: var(--secondary-color);
+}
+
+
+.intro-container :is(.section-header, .section-description){
+  margin-bottom:1rem;
+  color:var(--white);
+}
+
+.intro-video{
+  max-width:450px;
+  margin:auto;
+  box-shadow:5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
