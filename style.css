@@ -422,3 +422,33 @@ body{
   box-shadow:5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
+.feature-container :is(.section-subheader, .section-header){
+  text-align:center ;
+}
+
+
+.feature-grid{
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.feature-card span{
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size:2.5rem ;
+  color: var(--secondary-color);
+}
+
+.feature-card h4{
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  counter-reset: var(--text-dark);
+}
+
+
+.feature-card p {
+  color:var(--text-light)
+}
