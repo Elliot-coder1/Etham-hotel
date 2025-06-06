@@ -329,7 +329,7 @@ body{
 
 
 .room-grid{
-  max-width: 1200px;
+  max-width: 1000px;
   margin-inline: auto;
   margin-top:4rem;
   display: grid;
@@ -451,4 +451,52 @@ body{
 
 .feature-card p {
   color:var(--text-light)
+}
+
+
+
+.menu{
+  background-color: var(--extra-light);
+}
+
+
+
+.menu-header{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu-items{
+  list-style: none;
+  margin-block: 4rem;
+  display: grid;
+  gap:1rem 4rem;
+}
+
+
+.menu-items li{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition:0.3s ;
+}
+
+
+.menu-items li:hover{
+  background-color: var(--primary-color);
+}
+
+
+.menu-items img{
+  max-width: 100px;
+  border-radius: 2px;
+}
+
+.menu-items h4{
+  margin-bottom: 5rem;
+  font-size:1.25rem;
+  font-weight: 800;
+  font-family: var(--header-font);
 }
