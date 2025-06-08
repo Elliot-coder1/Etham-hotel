@@ -495,8 +495,21 @@ body{
 }
 
 .menu-items h4{
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   font-size:1.25rem;
   font-weight: 800;
   font-family: var(--header-font);
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+.menu-items p {
+  max-width:400px;
+  color:var(--text-light);
+  transition:0.3s;
+}
+
+
+.menu-items li:hover :is(h4, p){
+  color:var(--white);
 }
