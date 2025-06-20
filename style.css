@@ -175,7 +175,7 @@ body{
     rgba(15,26,44,0.5),
     rgba(15,26,44,0.5)
     ),
-  url(asset/header.jpg);
+  url(header.jpg);
   background-position:center center ;
   background-size:cover ;
   background-repeat: no-repeat;
